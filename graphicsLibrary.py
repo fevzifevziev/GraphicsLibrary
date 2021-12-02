@@ -4,7 +4,7 @@ def pixel(surface, color, pos):
     surface.fill(color, (pos, (1, 1)))
 
 # №1 Прямоугольник
-def draw(surface, pos, color="white", borderFull=10, borderColor="black" , borderLeft=None, borderRight=None, borderTop=None, borderBottom=None, transparency=0):
+def draw(surface, pos, color="white", borderFull=1, borderColor="black" , borderLeft=None, borderRight=None, borderTop=None, borderBottom=None, transparency=0):
     x1 = pos[0][0]
     x2 = pos[1][0]
     y1 = pos[0][1]
